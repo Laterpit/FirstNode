@@ -1,6 +1,6 @@
 /*
- * Nam
- *
+ * Created by Laterpit on 2015-1-6
+ * Description: App to test node with express using jade as view engine
  */
 
 var express = require('express');
