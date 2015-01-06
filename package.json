@@ -1,0 +1,31 @@
+{
+  "name": "FirstNode",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "cookie-parser": "*",
+    "debug": "*",
+    "express": "^5.0.0-alpha.1",
+    "faker": "*",
+    "jade": "*",
+    "morgan": "*",
+    "serve-favicon": "*"
+  },
+  "description": "FirstNode =========",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Laterpit/FirstNode.git"
+  },
+  "author": "linus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Laterpit/FirstNode/issues"
+  },
+  "homepage": "https://github.com/Laterpit/FirstNode"
+}

@@ -1,0 +1,10 @@
+doctype html
+html
+    head
+        title Users
+        link(rel='stylesheet', href='/stylesheets/style.css')
+    body
+        h1= 'Users'
+        .users
+        each user in users
+            include user
