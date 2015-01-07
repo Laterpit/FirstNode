@@ -11,7 +11,7 @@ router.get('/', function (req, res) {
         || req.query.q == 'viktor Larsson') {
         res.status(200).json({name: 'Viktor Larsson', gender: 'unsertain', status: "Not Awesome"});
     } else {
-        res.status(200).json({name: 'Linus Wågberg', gender: 'Manly man', status: "Awesome as hell"});
+        res.status(200).json({name: 'Linus', gender: 'Manly man', status: "Awesome as hell"});
     }
     ;
 });
