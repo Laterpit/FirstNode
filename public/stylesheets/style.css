@@ -12,7 +12,19 @@ a {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    border: solid 1px;
     text-align: center;
-    margin: 5px;
+    margin: 10px;
+    padding: 5px;
+    -moz-box-shadow: 4px 4px 10px #000;
+    -webkit-box-shadow: 4px 4px 10px #000;
+    box-shadow: 4px 4px 10px #000;
+}
+
+.email {
+    text-decoration: none;
+    color: #75caeb;
+}
+
+.email:hover {
+    color: #66afe9;
 }

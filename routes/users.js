@@ -12,7 +12,7 @@ function User(name, email, phone, avatar) {
 /* GET users listing. */
 router.get('/', function (req, res) {
     var users = [];
-    for (i = 0; i < 1; i++) {
+    for (i = 0; i < 200; i++) {
         users.push(new User(faker.name.firstName() + ' ' + faker.name.lastName(), faker.internet.email(),
             faker.phone.phoneNumber(), faker.image.avatar()));
     }

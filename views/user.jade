@@ -1,5 +1,6 @@
 .user
     h2= user.name
     img(src=user.avatar)
-    .email= user.email
+    br
+    a.email(href="mailto:" + user.email + "?Subject=From%20Jade" target="_top")= user.email
     .number= user.phone
